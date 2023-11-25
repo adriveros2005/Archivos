@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 blector.close();
                 String archivoContenido = contenido.toString();
             }catch (IOException ex){
+                
                 ex.printStackTrace();
             }
         }
